@@ -1,0 +1,19 @@
+#header{
+    background-color: skyblue;
+}
+
+#contact{
+    display:flex;
+}
+
+#header-title{
+    text-align: center;
+    font-size: 3em;
+
+}
+
+@media only screen and (max-width: 600px){
+    #header-title{
+        font-size: 2em;
+    }
+}

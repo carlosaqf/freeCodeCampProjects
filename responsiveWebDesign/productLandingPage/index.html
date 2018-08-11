@@ -5,20 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Product Landing Page</title> 
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
       
 </head>
 
 <body>
     <main>
         <div id="container">
-            <p id="description"></p>
-            <form action="#" id="survey-form">
-                <label for="name">First Name</label>
-                <input type="text" id="name" name="full-name" placeholder="Enter your name" required>
-          
-            </form>
+            <!-- HEADER SECTION -->
+            <header id="header">
+                <img src="" alt="" id="header-img" >
+                <h1 id="header-title">PRODUCT PAGE TITLE</h1>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- HOME SECTION -->
+            <section id="home">
+
+            </section>
+
+            <!-- ABOUT SECTION -->
+            <section id="about">
+                <video width="auto" height="auto" controls id="video">
+                    <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" type="video">
+                </video>
+
+            </section>
+
+            <!-- CONTACT SECTION -->
+            <section id="contact">
+                <form action ="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                    
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+
+                    <input type="submit" value="Submit" id="submit">
+                    
+                                            
+                </form>
+            </section>
+
+
         </div>
     </main>
+
+    <footer>
+        <p>Site by Carlos Fegurgur for FreeCodeCamp</p>
+    </footer>
     
 </body>
 </html>
+
+<!-- 15 / 16 
+User Story #1: Header element with id="header" ***
+User Story #2: Image within the header element with id="header-img" ***
+User Story #3: Within the #header element a nav element with id="nav-bar" ***
+User Story #4: Three clickable elements inside nav element, with class nav-link ***
+User Story #5: When click a .nav-link button, I am taken to corresponding section of page ***
+User Story #6: Can watch embedded product video with id="video"
+User Story #7: Landing page has form element with id="form" ***
+User Story #8: Within form, input field with id="email" ***
+User Story #9: #email input has placeholder text ***
+User Story #10: #email input field uses HTML5 validation to confirm text is an email ***
+User Story #11: Within form, there is submit input with id="submit" ***
+User Story #12: When I click #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) that confirms the email address was entered and that it posted successfully.
+User Story #13: Navbar should always be at top of viewport.
+User Story #14: My product landing page should have at least one media query.
+User Story #15: My product landing page should utilize CSS flexbox at least once.
+-->
