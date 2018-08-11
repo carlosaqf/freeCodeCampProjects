@@ -30,7 +30,7 @@ header{
     padding: 5px;
     vertical-align: top;
     margin-top: 8px;
-    background-color:red;
+    
 
 }
 
@@ -39,7 +39,8 @@ header{
     text-align: left;
     width: 48%;
     vertical-align: middle;
-    background-color: blue;
+    margin: 5px;
+    padding: 5px;
 }
 
 header h1,h3{
@@ -51,11 +52,14 @@ header h1,h3{
     font-size: 3em;
 }
 
+#description{
+    margin-top: -10px;
+}
+
 /*NAME, EMAIL, AGE FIELDS
 ======================== */
-#contact-info{
-    
-}
+
+
 
 /*DROPDOWN MENU
 =============== */
@@ -83,7 +87,7 @@ header h1,h3{
 
 }
 
-#comment-box{
+#textarea{
     resize: vertical;
 }
 
