@@ -1,9 +1,15 @@
+html,body{
+    text-align: center;
+    margin: 0 auto;
+}
+
 #header{
     background-color: skyblue;
 }
 
 #contact{
     display:flex;
+    justify-content: center;
 }
 
 #header-title{
@@ -12,8 +18,27 @@
 
 }
 
+#nav-bar ul{
+    list-style-type: none;
+    text-decoration: white;
+}
+
+#nav-bar a:link{
+    text-decoration: none;
+    color: grey;
+}
+
+#nav-bar a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 @media only screen and (max-width: 600px){
     #header-title{
         font-size: 2em;
     }
+}
+
+footer{
+    text-align: center;
 }
